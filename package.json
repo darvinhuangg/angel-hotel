@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/res/fonts/"
+    ]
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.3.1",
+    "expo": "~34.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-modal-datetime-picker": "^8.5.2",
+    "react-native-qrcode-svg": "^5.3.1",
+    "react-native-svg": "^8.0.11",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.1.0",
+    "@babel/core": "^7.8.6",
+    "axios": "0.18.1",
+    "moment": "2.24.0",
+    "react-navigation": "2.18.2",
+    "rn-sliding-up-panel": "2.3.0"
+  },
+  "private": true
+}
